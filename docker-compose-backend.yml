@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
+    environment:
         - 'NODE_ENV=production'
         - 'PORT=3000'
         - 'CORS_ORIGINS=["http://localhost:5173", "http://localhost"]' 
