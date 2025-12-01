@@ -1,0 +1,12 @@
+.env*
+.gitignore
+.prettierrc
+.vscode
+
+coverage
+docker-compose*.yml
+Dockerfile
+dist
+eslint.config.mjs
+jest-e2e.config.ts
+node_modules
